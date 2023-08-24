@@ -69,21 +69,13 @@ Sau đây là một số tính năng chính của website:
 **Clone the project**
 
 ```bash
-  git clone https://github.com/anduckhmt146/Shopify.git
+  git clone https://github.com/anduckhmt146/Digizone.git
 ```
-
-**Install Database**
-
-* Import file script.sql từ thư mục server/config vào XAMPP.
 
 **Install Backend**
 
 ```bash
   cd server
-```
-**Start the server**
-
-```bash
   npm run start
 ```
 
@@ -91,18 +83,8 @@ Sau đây là một số tính năng chính của website:
 
 ```bash
   cd client
-```
-
-**Install dependencies**
-
-```bash
   npm install
-```
-
-**Start the website**
-
-```bash
-  npm start
+  npm run dev
 ```
 
 ## :dart: Đăng nhập
