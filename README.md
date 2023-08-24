@@ -101,16 +101,6 @@ Tài khoản admin:
   password: 123456
 ```
 
-## :dart: Một số giao diện
-
-### Giao diện khách hàng
-
-![image](https://user-images.githubusercontent.com/86992472/234973170-b00fb420-2760-4e54-a896-0ddaacaed4b8.png)
-
-### Giao diện admin
-
-![image](https://user-images.githubusercontent.com/86992472/234973300-a46b3bcb-61d1-428f-82f4-717bd11888cd.png)
-
 ## :wave: Nhóm phát triển
 
 <ul>
