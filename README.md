@@ -1,10 +1,10 @@
 <div align="center">
 
-  <img src="https://cdn1.iconfinder.com/data/icons/ecommerce-gradient/512/ECommerce_Website_App_Online_Shop_Gradient_greenish_lineart_Modern_fashion_shirt_tees-512.png" alt="logo" width="200" height="auto" />
-  <h1>Shopify</h1>
+  <img src="https://raw.githubusercontent.com/anduckhmt146/resource/master/public/digizone.png" alt="logo" width="200" height="auto" />
+  <h1>Digizone</h1>
   
   <p>
-     "It's not about brand, it's about style"
+     "Fashion Redefined in the Digital Age"
   </p>
   
    
@@ -23,34 +23,18 @@
 <!-- About the Project -->
 ## :star2: Giới thiệu dự án
 
-Shopify là một nền tảng thương mại điện tử chuyên về cung cấp các sản phẩm thời trang, tập trung chủ yếu vào quần áo. 
+Digizone là một nền tảng thương mại điện tử chuyên về cung cấp các sản phẩm thời trang, tập trung chủ yếu vào quần áo. 
 
-Với mục tiêu đáp ứng nhu cầu của người tiêu dùng, Shopify không ngừng cập nhật các bộ sưu tập mới nhất, luôn bám sát và đưa ra các xu hướng thời trang nhanh chóng và hiệu quả.
-
-Dự án là sản phẩm cho assignment môn học Lập trình Web của ĐH Bách Khoa TPHCM.
+Với mục tiêu đáp ứng nhu cầu của người tiêu dùng, Digizone không ngừng cập nhật các bộ sưu tập mới nhất, luôn bám sát và đưa ra các xu hướng thời trang nhanh chóng và hiệu quả.
 
 <!-- TechStack -->
 ## :space_invader: Công nghệ sử dụng
 
-<details>
-  <summary>Client: ReactJS with MUI Library</summary>
-  <ul>
-    <li><a href="https://legacy.reactjs.org/docs/getting-started.html">ReactJS</a></li>
-    <li><a href="https://mui.com/">MUI Library</a></li>
-  </ul>
-</details>
+* Frontend: NextJS.
 
-<details>
-  <summary>Server & Database: PHP & MySQL</summary>
-  <ul>
-    <li><a href="https://www.php.net/">PHP</a></li>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-  </ul>
-</details>
+* Backend: NestJS, MongoDB, TypeORM.
 
-<details>
-  <summary>Architecture: MVC Pattern</summary>
-</details>
+* Architecture: Microservice Pattern
 
 <!-- Features -->
 ## :dart: Tính năng
@@ -94,8 +78,14 @@ Sau đây là một số tính năng chính của website:
 
 **Install Backend**
 
-* Đặt folder api vào thư mục httdocs hoặc thư mục tương ứng với DocumentRoot trong XAMPP.
-* Tiếp theo sửa port httpd là 8080 và mở tập tin httpd-ssl.conf sửa port 4433 ([Xem tại đây](https://stackoverflow.com/questions/18300377/how-to-solve-error-apache-shutdown-unexpectedly))
+```bash
+  cd server
+```
+**Start the server**
+
+```bash
+  npm run start
+```
 
 **Install Frontend**
 
